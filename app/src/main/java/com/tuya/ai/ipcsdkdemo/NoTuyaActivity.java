@@ -74,13 +74,13 @@ public class NoTuyaActivity extends AppCompatActivity {
                     String secret = "";
 
                     //三方设备id,根据实际设备id配置
-                    String cid = "device164114432";
+                    String cid = "";
                     String basePath = getFilesDir().getPath() + "/";
                     String recordPath = getFilesDir().getPath() + "/";
 
                     //二维码信息Map
                     String t = "";
-                    String a = "a1-cn.wgine.com";
+                    String a = "";
                     String key = "";
 
                     //查询配网信息
