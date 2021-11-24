@@ -61,14 +61,9 @@ public class TuyaActivity extends AppCompatActivity {
                 Manifest.permission.WAKE_LOCK,
                 Manifest.permission.CAMERA,
         }, () -> {
-
-            Log.d("xsj", "11111 2222 2222 444");
-
             initSDK();
             startConfig();
         });
-
-        Log.d("xsj", "11111 2222 2222");
     }
 
     @Override
